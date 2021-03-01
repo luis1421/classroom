@@ -69,5 +69,6 @@ data = [
     {"name": "julanito", "grade": 3.7},
     {"name": "peranito", "grade": 3.3}
 ]
-with open("C:\\Users\\USUARIO\\OneDrive\\Documentos\\VS\\EACD-01-FUNDAMENTOS\\local\\files\\coco_example.json", "w") as f:
+with open("data.json", "w") as f:
     json.dump(data, f)
+    
